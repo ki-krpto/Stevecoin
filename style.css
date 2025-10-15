@@ -1,0 +1,36 @@
+/* Military Flair & Custom Styles for SteveCoin */
+
+.military-hero {
+	background: linear-gradient(135deg, #2d2d2d 60%, #4b5320 100%);
+	min-height: 60vh;
+	position: relative;
+}
+
+.military-font {
+	font-family: 'Impact', 'Oswald', 'Arial Black', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.pulse {
+	animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+	0% { box-shadow: 0 0 0 0 rgba(220,53,69, 0.7); }
+	70% { box-shadow: 0 0 0 10px rgba(220,53,69, 0); }
+	100% { box-shadow: 0 0 0 0 rgba(220,53,69, 0); }
+}
+
+body {
+	font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.card-title.military-font {
+	color: #4b5320;
+}
+
+.btn-danger.pulse, .btn-danger.pulse:focus {
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(220,53,69, 0.7);
+}
