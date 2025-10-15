@@ -1,16 +1,25 @@
 
 .military-hero {
-	background: linear-gradient(135deg, #2d2d2d 60%, #4b5320 100%);
-	min-height: 80vh;
-	position: relative;
-	display: flex;
-	align-items: center;
+  background: linear-gradient(135deg, #2d2d2d 60%, #4b5320 100%);
+  min-height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center; 
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
+
 .military-hero img {
-	max-height: 100%;
-	object-fit: contain;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: 100% 0;
+	transform: scale(0.8);
+	display: block;
+	margin-top: -125px;
+	margin-bottom: -75px;
 }
 
 .military-font {
@@ -41,3 +50,9 @@ body {
 	outline: none;
 	box-shadow: 0 0 0 0 rgba(220,53,69, 0.7);
 }
+
+.hero {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
