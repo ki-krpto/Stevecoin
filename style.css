@@ -1,7 +1,16 @@
+
 .military-hero {
 	background: linear-gradient(135deg, #2d2d2d 60%, #4b5320 100%);
-	min-height: 60vh;
+	min-height: 80vh;
 	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.military-hero img {
+	max-height: 100%;
+	object-fit: contain;
+	width: 100%;
 }
 
 .military-font {
